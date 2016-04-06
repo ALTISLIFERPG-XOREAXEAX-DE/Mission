@@ -14,11 +14,11 @@
 		forecastWindDir=360;
 		wavesForced=1;
 		windForced=1;
-		year=2035;
+		year=2016;
 		month=7;
-		day=6;
-		hour=8;
-		minute=0;
+		day=2;
+		hour=5;
+		minute=42;
 		startFogDecay=0.0049333;
 		forecastFogDecay=0.0049333;
 	};

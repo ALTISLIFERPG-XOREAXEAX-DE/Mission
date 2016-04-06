@@ -1,7 +1,4 @@
 
-	class Vehicles
-	{
-		items=548;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -5635,4 +5632,3 @@
 			vehicle="Land_CashDesk_F";
 			skill=0.60000002;
 		};
-	};

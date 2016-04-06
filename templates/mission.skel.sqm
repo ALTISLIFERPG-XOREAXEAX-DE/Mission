@@ -30,7 +30,10 @@ class Mission
 	//
 	// Buildings
 	//
-	###classMission/classVehicles.sqm###
+	class Vehicles
+	{
+		###classMission/classVehicles.sqm###
+	};
 
 	//
 	// Map Markers
