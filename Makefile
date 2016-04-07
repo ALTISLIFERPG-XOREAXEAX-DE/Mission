@@ -2,7 +2,9 @@ MISSION = mission.sqm
 
 MISSIONBUILDER = bin/missionbuilder.py
 
-all: clean tmp classVehicles idpatcher lamps $(MISSION)
+CLASSVEHICLE_SCRIPT = bin/$(@).py tmp/classMission/classVehicles.sqm | tee tmp/classMission/classVehicles.sqm2; mv tmp/classMission/classVehicles.sqm2 tmp/classMission/classVehicles.sqm
+
+all: clean tmp classVehicles idpatcher lamps shops $(MISSION)
 
 #
 # populate the working directory
@@ -24,15 +26,19 @@ classVehicles:
 # turns on the lamps in xCam generated (CMF) mission.sqm files
 #
 lamps:
-	bin/lamps.py tmp/classMission/classVehicles.sqm | tee tmp/classMission/classVehicles.sqm2
-	mv tmp/classMission/classVehicles.sqm2 tmp/classMission/classVehicles.sqm
+	$(CLASSVEHICLE_SCRIPT)
+
+#
+# add action handlers to shop laptops
+#
+shops:
+	$(CLASSVEHICLE_SCRIPT)
 
 #
 # changes all the ids and item values in a file to consecutive numbers
 #
 idpatcher:
-	bin/idpatcher.py tmp/classMission/classVehicles.sqm 500 | tee tmp/classMission/classvehicles.sqm2
-	mv tmp/classMission/classVehicles.sqm2 tmp/classMission/classVehicles.sqm
+	$(CLASSVEHICLE_SCRIPT)
 
 $(MISSION):
 	$(MISSIONBUILDER) tmp $(MISSION)

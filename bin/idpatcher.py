@@ -8,7 +8,7 @@ import re
 #
 if __name__ == "__main__":
   _item_counter = 0
-  _itemid_counter = int(sys.argv[2])
+  _itemid_counter = int(500)
 
   with open(sys.argv[1], "r") as file_reader:
     regex = re.compile(r"id=[0-9]*;", re.IGNORECASE)
