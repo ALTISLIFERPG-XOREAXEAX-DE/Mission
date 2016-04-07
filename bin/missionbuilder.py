@@ -18,7 +18,7 @@ if __name__ == "__main__":
   with open("%s/mission.skel.sqm" % template_directory, "r") as mission_sqm:
     for line in mission_sqm.readlines():
       if not line.find("###") >= 0:
-        output_buffer.append(line)
+        output_buffer.append(line.replace("\n", "").replace("\r", ""))
       else:
         insert_template = "%s/%s" % (template_directory, line.replace("###", "").replace(" ", "").replace("\t", "").replace("\r", "").replace("\n", ""))
 
@@ -29,21 +29,9 @@ if __name__ == "__main__":
           sys.exit(1)
 
         with open(insert_template, "r") as template_content:
-          output_buffer.append("""
-///
-/// BEGIN of %s
-///
-""" % insert_template)
-
           for tline in template_content.readlines():
-            output_buffer.append(tline.replace("\r", " ").replace("\n", " "))
-          output_buffer.append("""
-///
-/// END of %s
-///
-""" % insert_template)
+            output_buffer.append(tline.replace("\n", "").replace("\r", ""))
 
   with open(sys.argv[2], "w") as output_file:
-    for line in output_buffer:
-      output_file.write("%s" % line)
+    output_file.write("\n".join(output_buffer))
 

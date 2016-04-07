@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 
 import sys
-import glob
-import os
-
 import re
 
 #
@@ -26,11 +23,7 @@ if __name__ == "__main__":
         line = rege2.sub("class Item%s" % _item_counter, line)
         _item_counter = _item_counter + 1
 
-      print line
+      print line.replace("\r", "").replace("\n", "")
 
     print ("""
-
-    items=%s;
-
-""" % _item_counter)
-
+        items=%s;""" % _item_counter)
