@@ -17,7 +17,7 @@
 		year=2016;
 		month=7;
 		day=2;
-		hour=23;
+		hour=5;
 		minute=42;
 		startFogDecay=0.0049333;
 		forecastFogDecay=0.0049333;
