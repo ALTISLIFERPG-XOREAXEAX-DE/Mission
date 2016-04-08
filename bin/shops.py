@@ -26,6 +26,10 @@ this addAction[localize"STR_MAR_General_Store",life_fnc_weaponShopMenu,"genstore
 
 this addAction[localize"STR_Shops_Market",life_fnc_virt_menu,"market"];
 
+this addAction[localize"STR_Shops_Cop",life_fnc_virt_menu,"cop"];
+
+this addAction[localize"STR_Shops_Med",life_fnc_virt_menu,"med"];
+
 this addAction[localize"STR_Shops_Pharmacy",life_fnc_virt_menu,"pharmacy"];
 
 this addAction[
