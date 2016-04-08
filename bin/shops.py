@@ -26,6 +26,8 @@ this addAction[localize"STR_MAR_General_Store",life_fnc_weaponShopMenu,"genstore
 
 this addAction[localize"STR_Shops_Market",life_fnc_virt_menu,"market"];
 
+this addAction[localize"STR_Shops_Pharmacy",life_fnc_virt_menu,"pharmacy"];
+
 this addAction[
 	format["%1 ($%2)",localize (getText(missionConfigFile >> "Licenses" >> "driver" >> "displayName")),
 		[(getNumber(missionConfigFile >> "Licenses" >> "driver" >> "price"))] call life_fnc_numberText
