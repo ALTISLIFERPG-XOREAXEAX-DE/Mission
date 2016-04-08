@@ -4,7 +4,7 @@ MISSIONBUILDER = bin/missionbuilder.py
 
 CLASSVEHICLE_SCRIPT = bin/$(@).py tmp/classMission/classVehicles.sqm | tee tmp/classMission/classVehicles.sqm2; mv tmp/classMission/classVehicles.sqm2 tmp/classMission/classVehicles.sqm
 
-all: clean tmp classVehicles idpatcher lamps shops $(MISSION)
+all: clean tmp classVehicles idpatcher lamps shops roadcones $(MISSION)
 
 #
 # populate the working directory
@@ -40,6 +40,15 @@ shops:
 idpatcher:
 	$(CLASSVEHICLE_SCRIPT)
 
+#
+# sets allowDamage to true on all road cones in the mission file
+#
+roadcones:
+	$(CLASSVEHICLE_SCRIPT)
+
+#
+# generate the mission now
+#
 $(MISSION):
 	$(MISSIONBUILDER) tmp $(MISSION)
 
