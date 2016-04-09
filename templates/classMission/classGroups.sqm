@@ -3359,7 +3359,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_1";
+					text="Tankstelle Kavala Nord";
 					init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3379,7 +3379,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_2";
+					text="Tankstelle Kavala SO";
 					init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3399,7 +3399,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_3";
+					text="Tankstelle Stadion SW";
 					init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3419,7 +3419,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_04";
+					text="Tankstelle Synneforos";
 					init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3439,7 +3439,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_06";
+					text="Tankstelle Stadion Nord";
 					init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3460,7 +3460,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_07";
+					text="Tankstelle Topelia West";
 					init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3480,7 +3480,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_08";
+					text="Tankstelle Syrta";
 					init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3500,7 +3500,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_09";
+					text="Tankstelle Agios";
 					init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3520,7 +3520,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_10";
+					text="Tankstelle Zaros";
 					init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3540,7 +3540,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_11";
+					text="Tankstelle Neochori";
 					init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3560,7 +3560,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_12";
+					text="Tankstelle Lakka";
 					init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3580,7 +3580,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_13";
+					text="Tankstelle Flughafen";
 					init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3600,7 +3600,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_14";
+					text="Tankstelle Athira";
 					init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3620,7 +3620,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_15";
+					text="Tankstelle Flughafen Nord";
 					init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3640,7 +3640,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_16";
+					text="Tankstelle Flughafen NE";
 					init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3660,7 +3660,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_17";
+					text="Tankstelle Pyrgos";
 					init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3680,7 +3680,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_18";
+					text="Tankstelle Anthrakia";
 					init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3700,7 +3700,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_19";
+					text="Tankstelle Pyrgos Nord";
 					init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3720,7 +3720,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_20";
+					text="Tankstelle Chalkeia";
 					init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3740,7 +3740,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_21";
+					text="Tankstelle Paros";
 					init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3760,7 +3760,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_22";
+					text="Tankstelle Selakano";
 					init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3780,7 +3780,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_23";
+					text="Tankstelle Ioannina";
 					init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
@@ -3800,7 +3800,7 @@
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Station_shop_24";
+					text="Tankstelle Sofia";
 					init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
 				};
 			};
