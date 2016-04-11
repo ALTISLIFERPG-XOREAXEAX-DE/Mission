@@ -1,7 +1,7 @@
 
 	class Groups
 	{
-		items=106;
+		items=107;
 		class Item0
 		{
 			side="WEST";
@@ -3825,5 +3825,65 @@
 				};
 			};
 		};
+		class Item106
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={8429.9258,99.930687,25177.225};
+					azimut=185.11099;
+					special="NONE";
+					id=236;
+					side="GUER";
+					vehicle="C_scientist_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					text="admin_1";
+					description="WhiteListed - Admin 1";
+				};
+				class Item1
+				{
+					position[]={8430.2324,99.418427,25179.02};
+					azimut=185.11099;
+					special="NONE";
+					id=237;
+					side="GUER";
+					vehicle="C_scientist_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="admin_2";
+					description="WhiteListed - Admin 2";
+				};
+				class Item2
+				{
+					position[]={8431.6777,99.306786,25178.748};
+					azimut=185.11099;
+					special="NONE";
+					id=238;
+					side="GUER";
+					vehicle="C_scientist_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="admin_3";
+					description="WhiteListed - Admin 3";
+				};
+				class Item3
+				{
+					position[]={8432.2236,99.711594,25177.109};
+					azimut=185.11099;
+					special="NONE";
+					id=239;
+					side="GUER";
+					vehicle="C_scientist_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="admin_4";
+					description="WhiteListed - Admin 4";
+				};
+			};
+		};
 	};
-	

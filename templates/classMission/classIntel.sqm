@@ -1,24 +1,32 @@
+
 	class Intel
 	{
-		briefingName="Altis Life RPG v4.4r2";
+		briefingName="[XOREAXEAX] Altis Life RPG v4.4r2 github/armalife";
 		overviewText="An RPG game mode developed by Tonic";
+
 		startWeather=0;
 		startWind=0;
 		startWindDir=0;
 		startWaves=0;
 		startGust=0;
+		startFogDecay=0.01;
+		forecastFogDecay=0.01;
+		
 		forecastWeather=0;
 		forecastWind=0;
 		forecastWaves=0;
 		forecastGust=0;
 		forecastWindDir=0;
+		forecastOvercast = 0;
+		forecastHumidity = 0;
+		forecastFog = 0;
+		
 		wavesForced=0;
 		windForced=0;
+		
 		year=2016;
-		month=7;
-		day=2;
-		hour=5;
+		month=5;
+		day=1;
+		hour=4;
 		minute=42;
-		startFogDecay=0;
-		forecastFogDecay=0;
 	};
