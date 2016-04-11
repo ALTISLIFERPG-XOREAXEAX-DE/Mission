@@ -3838,7 +3838,7 @@
 					special="NONE";
 					id=236;
 					side="GUER";
-					vehicle="C_scientist_F";
+					vehicle="B_medic_F";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -3852,7 +3852,7 @@
 					special="NONE";
 					id=237;
 					side="GUER";
-					vehicle="C_scientist_F";
+					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="admin_2";
@@ -3865,7 +3865,7 @@
 					special="NONE";
 					id=238;
 					side="GUER";
-					vehicle="C_scientist_F";
+					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="admin_3";
@@ -3878,7 +3878,7 @@
 					special="NONE";
 					id=239;
 					side="GUER";
-					vehicle="C_scientist_F";
+					vehicle="B_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="admin_4";
