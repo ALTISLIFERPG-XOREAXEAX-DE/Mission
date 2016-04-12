@@ -32,6 +32,8 @@ if __name__ == "__main__":
           for tline in template_content.readlines():
             output_buffer.append(tline.replace("\n", "").replace("\r", ""))
 
+        print "OK"
+
   with open(sys.argv[2], "w") as output_file:
     output_file.write("\n".join(output_buffer))
 

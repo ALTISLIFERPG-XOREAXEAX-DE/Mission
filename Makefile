@@ -4,14 +4,20 @@ MISSIONBUILDER = bin/missionbuilder.py
 
 CLASSVEHICLE_SCRIPT = bin/$(@).py tmp/classMission/classVehicles.sqm | tee tmp/classMission/classVehicles.sqm2; mv tmp/classMission/classVehicles.sqm2 tmp/classMission/classVehicles.sqm
 
-all: clean tmp classVehicles idpatcher lamps shops roadcones $(MISSION)
+all: clean tmp classVehicles idpatcher lamps shops roadcones Config $(MISSION)
+
+#
+# generate the Configs from the macro expanders
+#
+Config:
+	bin/vitems.py templates/Config/vItems.hpp | tee ../Altis/Altis_Life.Altis/Config_vItems.hpp
 
 #
 # populate the working directory
 #
 tmp:
 	mkdir -pv tmp
-	rsync -Pavpx templates/. tmp/.
+	rsync -Pavpx templates/mission/. tmp/.
 
 #
 # build the classVehicles class out of all Mapping projects and the original one from Altis Life

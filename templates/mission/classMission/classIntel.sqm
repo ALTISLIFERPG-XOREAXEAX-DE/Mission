@@ -1,7 +1,7 @@
 
 	class Intel
 	{
-		briefingName="[XOREAXEAX] Altis Life RPG v4.4r2 github/armalife";
+		briefingName="[XOREAXEAX] ArmaLife v4.4r2";
 		overviewText="An RPG game mode developed by Tonic";
 
 		startWeather=0;
