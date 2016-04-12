@@ -4,7 +4,7 @@ MISSIONBUILDER = bin/missionbuilder.py
 
 CLASSVEHICLE_SCRIPT = bin/$(@).py tmp/classMission/classVehicles.sqm | tee tmp/classMission/classVehicles.sqm2; mv tmp/classMission/classVehicles.sqm2 tmp/classMission/classVehicles.sqm
 
-all: clean tmp classVehicles idpatcher lamps shops roadcones Config $(MISSION)
+all: clean tmp classVehicles idpatcher lamps shops roadcones billboards cop_billboards Config $(MISSION)
 
 #
 # generate the Configs from the macro expanders
@@ -27,6 +27,18 @@ classVehicles:
 	find ../Mapping -type f -ipath "*/mission*.sqm" | sort | uniq | \
 		xargs -n1 --no-run-if-empty ./bin/slice.sh | \
 			tee -a tmp/classMission/classVehicles.sqm
+
+#
+# all the cop billboards
+#
+cop_billboards:
+	$(CLASSVEHICLE_SCRIPT)
+
+#
+# puts specific jpgs on top of these billboards that we know from xCam coordinates
+#
+billboards:
+	$(CLASSVEHICLE_SCRIPT)
 
 #
 # turns on the lamps in xCam generated (CMF) mission.sqm files
