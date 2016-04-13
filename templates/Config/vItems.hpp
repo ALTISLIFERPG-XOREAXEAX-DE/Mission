@@ -45,7 +45,7 @@ class VirtualShops {
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "spikeStrip", "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter", "blastingcharge" };
+        items[] = { "zipties", "spikeStrip", "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter", "blastingcharge" };
     };
 
     class wongs {
@@ -309,6 +309,17 @@ class VirtualItems {
         icon = "custom\icons\ico_painkillers.paa";
     };
 
+	class zipties {
+        variable = "zipties";
+        displayName = "STR_Item_Zipties";
+        weight = 1;
+        buyPrice = 10000;
+        sellPrice = 400;
+        illegal = true;
+        edible = -1;
+        icon = "custom\icons\ico_zipties.paa";
+    };
+	
     //Mined Items
     class oil_unprocessed {
         variable = "oilUnprocessed";
