@@ -3838,12 +3838,12 @@
 					special="NONE";
 					id=236;
 					side="GUER";
-					vehicle="B_medic_F";
+					vehicle="I_soldier_UAV_F";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
-					text="admin_1";
-					description="WhiteListed - Admin 1";
+					text="adac_1";
+					description="WhiteListed - ADAC 1";
 				};
 				class Item1
 				{
@@ -3852,11 +3852,11 @@
 					special="NONE";
 					id=237;
 					side="GUER";
-					vehicle="B_medic_F";
+					vehicle="I_soldier_UAV_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					text="admin_2";
-					description="WhiteListed - Admin 2";
+					text="adac_2";
+					description="WhiteListed - ADAC 2";
 				};
 				class Item2
 				{
@@ -3865,11 +3865,11 @@
 					special="NONE";
 					id=238;
 					side="GUER";
-					vehicle="B_medic_F";
+					vehicle="I_soldier_UAV_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					text="admin_3";
-					description="WhiteListed - Admin 3";
+					text="adac_3";
+					description="WhiteListed - ADAC 3";
 				};
 				class Item3
 				{
@@ -3878,11 +3878,11 @@
 					special="NONE";
 					id=239;
 					side="GUER";
-					vehicle="B_medic_F";
+					vehicle="I_soldier_UAV_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					text="admin_4";
-					description="WhiteListed - Admin 4";
+					text="adac_4";
+					description="WhiteListed - ADAC 4";
 				};
 			};
 		};

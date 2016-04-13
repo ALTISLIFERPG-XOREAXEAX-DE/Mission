@@ -4,7 +4,7 @@ MISSIONBUILDER = bin/missionbuilder.py
 
 CLASSVEHICLE_SCRIPT = bin/$(@).py tmp/classMission/classVehicles.sqm | tee tmp/classMission/classVehicles.sqm2; mv tmp/classMission/classVehicles.sqm2 tmp/classMission/classVehicles.sqm
 
-all: clean tmp classVehicles idpatcher lamps shops roadcones billboards cop_billboards Config $(MISSION)
+all: clean tmp classVehicles idpatcher lamps shops roadcones billboards cop_billboards make_love_not_war Config $(MISSION)
 
 CONFIG_VITEMS = ../Altis/Altis_Life.Altis/Config_vItems.hpp
 
@@ -33,6 +33,12 @@ classVehicles:
 	find ../Mapping -type f -ipath "*/mission*.sqm" | sort | uniq | \
 		xargs -n1 --no-run-if-empty ./bin/slice.sh | \
 			tee -a tmp/classMission/classVehicles.sqm
+
+#
+# turns out you actually CAN loot mil_boxes in altislife by dropping the stuff to the ground first :)
+#
+make_love_not_war:
+	$(CLASSVEHICLE_SCRIPT)
 
 #
 # chairs. CURRENTLY UNUSED. DO NOT ENABLE THIS!
