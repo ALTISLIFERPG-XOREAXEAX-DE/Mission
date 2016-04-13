@@ -507,7 +507,7 @@ class VirtualItems {
         buyPrice = %%%MARIJUANA_PROCESSED_BUYPRICE%%%;
         sellPrice = %%%MARIJUANA_PROCESSED_SELLPRICE%%%; // MARIJUANA_PROCESSED_SELLPRICE
         illegal = true;
-        edible = -1;
+        edible = 10;
         icon = "icons\ico_marijuana.paa";
     };
 
@@ -530,7 +530,7 @@ class VirtualItems {
         buyPrice = %%%COCAINE_PROCESSED_BUYPRICE%%%;
         sellPrice = %%%COCAINE_PROCESSED_SELLPRICE%%%; // COCAINE_PROCESSED_SELLPRICE
         illegal = true;
-        edible = -1;
+        edible = 100;
         icon = "icons\ico_cocaineProcessed.paa";
     };
 

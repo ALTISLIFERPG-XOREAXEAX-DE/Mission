@@ -8,16 +8,8 @@ all: clean tmp classVehicles idpatcher lamps shops roadcones billboards cop_bill
 
 CONFIG_VITEMS = ../Altis/Altis_Life.Altis/Config_vItems.hpp
 
-#
-# regenerate pricing on the homepage
-#
-
-MARI = $(shell grep MARIJUANA_PROCESSED_SELLPRICE $(CONFIG_VITEMS) | awk '{print $$3;}' | sed 's,;,,g;')
-COKE = $(shell grep COCAINE_PROCESSED_SELLPRICE $(CONFIG_VITEMS) | awk '{print $$3;}' | sed 's,;,,g;')
-HERO = $(shell grep HEROIN_PROCESSED_SELLPRICE $(CONFIG_VITEMS) | awk '{print $$3;}' | sed 's,;,,g;')
-
 Homepage:
-	bin/homepage.py templates/homepage/index.html.skel "$(MARI)" "$(COKE)" "$(HERO)" | ssh root@xoreaxeax.de -t tee /var/www/html/index.html
+	bin/homepage.py templates/homepage/index.html.skel | ssh root@xoreaxeax.de -t tee /var/www/html/index.html
 	ssh root@xoreaxeax.de make -C /var/www/html
 
 #

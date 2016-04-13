@@ -16,8 +16,8 @@ if __name__ == "__main__":
       #
       # Marihuana
       #
-      buy_price = 10000
-      sell_price = buy_price + random.randint(0, 10000)
+      buy_price = 20000
+      sell_price = buy_price - 100 - random.randint(0, 10000)
 
       line = line.replace("%%%MARIJUANA_PROCESSED_BUYPRICE%%%", "%s" % buy_price)
       line = line.replace("%%%MARIJUANA_PROCESSED_SELLPRICE%%%", "%s" % sell_price)
@@ -25,16 +25,16 @@ if __name__ == "__main__":
       #
       # Cocaine
       #
-      buy_price = 20000
-      sell_price = buy_price + random.randint(0, 20000)
+      buy_price = 40000
+      sell_price = buy_price - 100 - random.randint(0, 20000)
       line = line.replace("%%%COCAINE_PROCESSED_BUYPRICE%%%", "%s" % buy_price)
       line = line.replace("%%%COCAINE_PROCESSED_SELLPRICE%%%", "%s" % sell_price)
 
       #
       # Heroin
       #
-      buy_price = 20000
-      sell_price = buy_price + random.randint(0, 20000)
+      buy_price = 40000
+      sell_price = buy_price - 100 - random.randint(0, 20000)
       line = line.replace("%%%HEROIN_PROCESSED_BUYPRICE%%%", "%s" % buy_price)
       line = line.replace("%%%HEROIN_PROCESSED_SELLPRICE%%%", "%s" % sell_price)
 

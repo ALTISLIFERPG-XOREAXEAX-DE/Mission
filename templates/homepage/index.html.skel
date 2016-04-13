@@ -16,7 +16,6 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        
                     </div>
                     <div class="collapse navbar-collapse" id="navbar-ex-collapse">
                         <ul class="nav navbar-nav navbar-right"></ul>
@@ -27,12 +26,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center">
-						<a href="http://www.gametracker.com/server_info/178.63.102.6:2302/" target="_blank"><img src="http://cache.www.gametracker.com/server_info/178.63.102.6:2302/b_560_95_1.png" border="0" width="560" height="95" alt=""/></a>
                         <h1 class="text-inverse">altisliferpg.xoreaxeax.de</h1>
-                        <p class="text-inverse"><b>Aktuelle Preisliste</b><br>Marihuana: %%%MARIJUANA_SELLPRICE%%%<br>Kokain: %%%COCAINE_SELLPRICE%%%<br>Heroin: %%%HEROIN_SELLPRICE%%%<br><br><br><br><br></p>
-                        <br>
-                        <br>
-                        <a class="btn btn-lg btn-primary" href="ts3server://xoreaxeax.de">TEAMSPEAK<br></a>
+                        <br/>
+                        <a class="btn btn-lg btn-primary" href="ts3server://xoreaxeax.de">TEAMSPEAK</a>
+                        <a class="btn btn-lg btn-primary" href="https://github.com/ALTISLIFERPG-XOREAXEAX-DE/Altis">GITHUB</a>
+                        <a class="btn btn-lg btn-primary" href="https://github.com/armalife/altis">UPSTREAM</a>
+                        <br/><br/><br/>
+                        <a href="http://www.gametracker.com/server_info/178.63.102.6:2302/" target="_blank"><img src="http://cache.www.gametracker.com/server_info/178.63.102.6:2302/b_560_95_1.png" border="0" width="560" height="95" alt=""/></a>
                     </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@
                     <div class="col-md-6">
                         <h1 class="text-primary">Rage against the machine.</h1>
                         <h3>Spass ist das beste Spielprinzip.</h3>
-                        <p>Faires Fahrzeug- und Waffenbalancing zwischen Rebellen und Polizei.<br><br>Erfahrene Spieler, die bereit sind zu helfen und sich respektieren.<br><br>Restartzeiten alle 6 Stunden um in Ruhe zu zocken.<br><br>Zentralbank ab 0 Polizisten ausraubbar.</p>
+                        <p>Faires Fahrzeug- und Waffenbalancing zwischen Rebellen und Polizei.<br><br>Erfahrene Spieler, die bereit sind zu helfen und sich respektieren.<br><br>Restartzeiten alle 6 Stunden um in Ruhe zu zocken.<br><br>Oder einfach mal Uran fertig kriegen.<br><br>Unsere Zentralbank ist ab 0 Polizisten ausraubbar.<br><br>Wieso das so ist? Weil wir gerne so spielen.</p>
                     </div>
                     <div class="col-md-6">
                         <img src="http://images.akamai.steamusercontent.com/ugc/279595726551070589/E35FB2124E587603CBB527F9A99CBE1046141F0D/" class="img-responsive img-rounded">
@@ -70,7 +70,6 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h1 class="text-center text-primary">Core Team</h1>
-                        
                     </div>
                 </div>
                 <div class="row">
