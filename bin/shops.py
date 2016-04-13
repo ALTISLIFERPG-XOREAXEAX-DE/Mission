@@ -67,7 +67,7 @@ this addAction[
 	life_fnc_buyLicense,"home",0,false,false,"",' !license_civ_home && playerSide == civilian '
 ];
 
-this setObjectTextureGlobal[0, "textures\800x400_armalife.jpg"];
+this setObjectTextureGlobal[0, "textures\\armalife.jpg"];
 
 """
 

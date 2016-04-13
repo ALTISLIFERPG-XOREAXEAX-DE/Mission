@@ -29,6 +29,13 @@ classVehicles:
 			tee -a tmp/classMission/classVehicles.sqm
 
 #
+# chairs. CURRENTLY UNUSED. DO NOT ENABLE THIS!
+#
+#chairs:
+#	$(CLASSVEHICLE_SCRIPT)
+#
+
+#
 # all the cop billboards
 #
 cop_billboards:
