@@ -1,0 +1,97 @@
+<html><head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
+    </head><body>
+        <div class="cover">
+            <div class="navbar">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+                        <ul class="nav navbar-nav navbar-right"></ul>
+                    </div>
+                </div>
+            </div>
+            <div class="cover-image" style="background-image : url('http://xoreaxeax.de/img/107410_screenshots_20160412025952_1.jpg')"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+						<a href="http://www.gametracker.com/server_info/178.63.102.6:2302/" target="_blank"><img src="http://cache.www.gametracker.com/server_info/178.63.102.6:2302/b_560_95_1.png" border="0" width="560" height="95" alt=""/></a>
+                        <h1 class="text-inverse">altisliferpg.xoreaxeax.de</h1>
+                        <p class="text-inverse"><b>Aktuelle Preisliste</b><br>Marihuana: %%%MARIJUANA_SELLPRICE%%%<br>Kokain: %%%COCAINE_SELLPRICE%%%<br>Heroin: %%%HEROIN_SELLPRICE%%%<br><br><br><br><br></p>
+                        <br>
+                        <br>
+                        <a class="btn btn-lg btn-primary" href="ts3server://xoreaxeax.de">TEAMSPEAK<br></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="http://images.akamai.steamusercontent.com/ugc/279595726554358417/AABB3BEEB60821E5127BA6683632EE90F3A6BA8B/" class="img-responsive img-rounded">
+                    </div>
+                    <div class="col-md-6">
+                        <h1 class="text-primary">Ich hab Polizei.</h1>
+                        <h3>Willkommen im Dienst!</h3>
+                        <p>Wir legen wert auf korrekte Polizisten und Cop- RP mit Tiefgang und Storyline.<br><br>Auf unserem Server herrscht eine klare Gewaltentrennung.<br><br>Serveradmins und Ingame- Admins spielen keine Cops.<br><br>Cops sind keine Ingame- Admins.<br><br>Keine Interessenkonflikte und kein Admin Abuse.<br><br>Das ist technisch so geregelt und Grundlage des sauberen, transparenten Gameplays.<br><br>Unsere Supporter sind ebenfalls keine Cops und vollkommen neutral.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1 class="text-primary">Rage against the machine.</h1>
+                        <h3>Spass ist das beste Spielprinzip.</h3>
+                        <p>Faires Fahrzeug- und Waffenbalancing zwischen Rebellen und Polizei.<br><br>Erfahrene Spieler, die bereit sind zu helfen und sich respektieren.<br><br>Restartzeiten alle 6 Stunden um in Ruhe zu zocken.<br><br>Zentralbank ab 0 Polizisten ausraubbar.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="http://images.akamai.steamusercontent.com/ugc/279595726551070589/E35FB2124E587603CBB527F9A99CBE1046141F0D/" class="img-responsive img-rounded">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="text-center text-primary">Core Team</h1>
+                        
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="http://images.akamai.steamusercontent.com/ugc/279595726557612664/9ECC563A84569C0B41FD411D0C0C65131DAE0470/" class="center-block img-responsive img-rounded">
+                        <h3 class="text-center">Dr. Michael Sommer</h3>
+                        <p class="text-center">Entwickler<br></p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="http://images.akamai.steamusercontent.com/ugc/314493329982921606/9F7ED1EF87531316B5059670063AE711EB0D129D/" class="center-block img-responsive img-rounded">
+                        <h3 class="text-center">[DHS] Bonnie Parker</h3>
+                        <p class="text-center">Community Manager</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="http://images.akamai.steamusercontent.com/ugc/314492958158246926/03D2845FD36847081ABA2B5C8B97D50F38CCF9AA/" class="center-block img-responsive img-rounded">
+                        <h3 class="text-center">[AVS] Matthew C.</h3>
+                        <p class="text-center">Balancing, Community, grober Unfug</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+</body></html>

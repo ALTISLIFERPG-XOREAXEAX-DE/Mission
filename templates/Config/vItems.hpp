@@ -482,7 +482,7 @@ class VirtualItems {
         displayName = "STR_Item_HeroinP";
         weight = 2;
         buyPrice = %%%HEROIN_PROCESSED_BUYPRICE%%%;
-        sellPrice = %%%HEROIN_PROCESSED_SELLPRICE%%%;
+        sellPrice = %%%HEROIN_PROCESSED_SELLPRICE%%%; // HEROIN_PROCESSED_SELLPRICE
         illegal = true;
         edible = -1;
         icon = "icons\ico_heroinProcessed.paa";
@@ -505,7 +505,7 @@ class VirtualItems {
         displayName = "STR_Item_Marijuana";
         weight = 4;
         buyPrice = %%%MARIJUANA_PROCESSED_BUYPRICE%%%;
-        sellPrice = %%%MARIJUANA_PROCESSED_SELLPRICE%%%;
+        sellPrice = %%%MARIJUANA_PROCESSED_SELLPRICE%%%; // MARIJUANA_PROCESSED_SELLPRICE
         illegal = true;
         edible = -1;
         icon = "icons\ico_marijuana.paa";
@@ -528,7 +528,7 @@ class VirtualItems {
         displayName = "STR_Item_CocaineP";
         weight = 2;
         buyPrice = %%%COCAINE_PROCESSED_BUYPRICE%%%;
-        sellPrice = %%%COCAINE_PROCESSED_SELLPRICE%%%;
+        sellPrice = %%%COCAINE_PROCESSED_SELLPRICE%%%; // COCAINE_PROCESSED_SELLPRICE
         illegal = true;
         edible = -1;
         icon = "icons\ico_cocaineProcessed.paa";

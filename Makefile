@@ -6,11 +6,25 @@ CLASSVEHICLE_SCRIPT = bin/$(@).py tmp/classMission/classVehicles.sqm | tee tmp/c
 
 all: clean tmp classVehicles idpatcher lamps shops roadcones billboards cop_billboards Config $(MISSION)
 
+CONFIG_VITEMS = ../Altis/Altis_Life.Altis/Config_vItems.hpp
+
+#
+# regenerate pricing on the homepage
+#
+
+MARI = $(shell grep MARIJUANA_PROCESSED_SELLPRICE $(CONFIG_VITEMS) | awk '{print $$3;}' | sed 's,;,,g;')
+COKE = $(shell grep COCAINE_PROCESSED_SELLPRICE $(CONFIG_VITEMS) | awk '{print $$3;}' | sed 's,;,,g;')
+HERO = $(shell grep HEROIN_PROCESSED_SELLPRICE $(CONFIG_VITEMS) | awk '{print $$3;}' | sed 's,;,,g;')
+
+Homepage:
+	bin/homepage.py templates/homepage/index.html.skel "$(MARI)" "$(COKE)" "$(HERO)" | ssh root@xoreaxeax.de -t tee /var/www/html/index.html
+	ssh root@xoreaxeax.de make -C /var/www/html
+
 #
 # generate the Configs from the macro expanders
 #
 Config:
-	bin/vitems.py templates/Config/vItems.hpp | tee ../Altis/Altis_Life.Altis/Config_vItems.hpp
+	bin/vitems.py templates/Config/vItems.hpp | tee $(CONFIG_VITEMS)
 
 #
 # populate the working directory
