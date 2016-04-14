@@ -22,10 +22,11 @@
                     </div>
                 </div>
             </div>
-            <div class="cover-image" style="background-image : url('http://xoreaxeax.de/img/107410_screenshots_20160412025952_1.jpg')"></div>
+            <div class="cover-image" style="background-image : url('http://images.akamai.steamusercontent.com/ugc/276218793497363107/C57AE276643C1913F75262E927BBC60709D3C737/')"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center">
+                        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
                         <h1 class="text-inverse">altisliferpg.xoreaxeax.de</h1>
                         <br/>
                         <a class="btn btn-lg btn-primary" href="ts3server://78.47.101.8:31337">TEAMSPEAK</a>
@@ -46,7 +47,7 @@
                     <div class="col-md-6">
                         <h1 class="text-primary">Ich hab Polizei.</h1>
                         <h3>Willkommen im Dienst!</h3>
-                        <p>Wir legen wert auf korrekte Polizisten und Cop- RP mit Tiefgang und Storyline.<br><br>Auf unserem Server herrscht eine klare Gewaltentrennung.<br><br>Serveradmins und Ingame- Admins spielen keine Cops.<br><br>Cops sind keine Ingame- Admins.<br><br>Keine Interessenkonflikte und kein Admin Abuse.<br><br>Das ist technisch so geregelt und Grundlage des sauberen, transparenten Gameplays.<br><br>Unsere Supporter sind ebenfalls keine Cops und vollkommen neutral.</p>
+                        <p>Wir legen wert auf korrekte Polizisten und RP mit Tiefgang und Storyline.  Bevor auf einen Polizisten geschossen wird muss es einen TRIFTIGEN und erkennbaren Grund geben warum er angegriffen wird.  Kein Kill-On-Sight, keine wahllosen Kontrollen von Zivilisten, auch nicht im Gangversteck.  Auf unserem Server herrscht eine klare, demokratisch orientierte Gewaltentrennung.  Serveradmins und Ingame- Admins spielen keine Cops.  Cops sind keine Ingame- Admins.  Keine Interessenkonflikte und kein Admin Abuse.  Das ist in den Loginscripten auch so geregelt und Grundlage des sauberen, transparenten Gameplays.  Unsere Supporter sind ebenfalls keine Cops und vollkommen neutral.  Das bedeutet auch dass weder Admins noch Supporter den Polizisten auf dem Server Weisungen geben oder ins Gameplay eingreifen.</p>
                     </div>
                 </div>
             </div>
@@ -57,7 +58,7 @@
                     <div class="col-md-6">
                         <h1 class="text-primary">Rage against the machine.</h1>
                         <h3>Spass ist das beste Spielprinzip.</h3>
-                        <p>Faires Fahrzeug- und Waffenbalancing zwischen Rebellen und Polizei.<br><br>Erfahrene Spieler, die bereit sind zu helfen und sich respektieren.<br><br>Restartzeiten alle 6 Stunden um in Ruhe zu zocken.<br><br>Oder einfach mal Uran fertig kriegen.<br><br>Unsere Zentralbank ist ab 0 Polizisten ausraubbar.<br><br>Wieso das so ist? Weil wir gerne so spielen.</p>
+                        <p>Faires Fahrzeug- und Waffenbalancing zwischen Rebellen und Polizei.  Erfahrene Spieler, die bereit sind zu helfen und sich gegenseitig respektieren.  Restartzeiten alle 6 Stunden um in Ruhe zu zocken.  Oder einfach mal Uran fertig kriegen.  Unsere Zentralbank ist ab 0 Polizisten ausraubbar. Die Einnahmen durch Farmen sind extremst hoch, man kommt sehr schnell an Geld und die Fahrzeuge und Waffen sind erschwinglich.  Wieso das so ist? Weil wir gerne so spielen.</p>
                     </div>
                     <div class="col-md-6">
                         <img src="http://images.akamai.steamusercontent.com/ugc/279595726551070589/E35FB2124E587603CBB527F9A99CBE1046141F0D/" class="img-responsive img-rounded">
@@ -69,24 +70,24 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1 class="text-center text-primary">Core Team</h1>
+                        <h1 class="text-center text-primary">Server Management</h1>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-4">
                         <img src="http://images.akamai.steamusercontent.com/ugc/279595726557612664/9ECC563A84569C0B41FD411D0C0C65131DAE0470/" class="center-block img-responsive img-rounded">
-                        <h3 class="text-center">Dr. Michael Sommer</h3>
-                        <p class="text-center">Entwickler<br></p>
+                        <h3 class="text-center">[XOR] Dr. Michael Sommer</h3>
+                        <p class="text-center">Entwickler, PvE, Testing</p>
                     </div>
                     <div class="col-md-4">
                         <img src="http://images.akamai.steamusercontent.com/ugc/314493329982921606/9F7ED1EF87531316B5059670063AE711EB0D129D/" class="center-block img-responsive img-rounded">
                         <h3 class="text-center">[DHS] Bonnie Parker</h3>
-                        <p class="text-center">Community Manager</p>
+                        <p class="text-center">Community und PR, PvP, PvE</p>
                     </div>
                     <div class="col-md-4">
                         <img src="http://images.akamai.steamusercontent.com/ugc/314492958158246926/03D2845FD36847081ABA2B5C8B97D50F38CCF9AA/" class="center-block img-responsive img-rounded">
-                        <h3 class="text-center">[AVS] Matthew C.</h3>
-                        <p class="text-center">Balancing, Community, grober Unfug</p>
+                        <h3 class="text-center">[AVS] Matthew Coleman</h3>
+                        <p class="text-center">Balancing, Community Relations, PvP</p>
                     </div>
                 </div>
             </div>
