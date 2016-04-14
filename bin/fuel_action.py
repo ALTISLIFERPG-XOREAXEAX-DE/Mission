@@ -28,9 +28,7 @@ this addAction [
 if __name__ == "__main__":
   with open(sys.argv[1], "r") as file_reader:
     for line in file_reader:
-      line = line.replace("%%%ACTION_FUEL_ACTION%%%", fuel_action)
-
-      output_buffer.append(line.replace("\r", " ").replace("\n", " ").replace.("\t", " ")replace('"', '""'))
+      output_buffer.append(line.replace("%%%ACTION_FUEL_ACTION%%%", fuel_action).replace("\r", " ").replace("\n", " ").replace("\t", " ").replace('"', '""'))
 
   for line in output_buffer:
     print line
