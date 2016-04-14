@@ -4,7 +4,7 @@ MISSIONBUILDER = bin/missionbuilder.py
 
 CLASSVEHICLE_SCRIPT = bin/$(@).py tmp/classMission/classVehicles.sqm | tee tmp/classMission/classVehicles.sqm2; mv tmp/classMission/classVehicles.sqm2 tmp/classMission/classVehicles.sqm
 
-all: clean tmp classVehicles idpatcher lamps shops roadcones billboards cop_billboards make_love_not_war Config $(MISSION)
+all: clean tmp classVehicles idpatcher lamps shops roadcones billboards cop_billboards make_love_not_war fuel_action dhs_shops Config $(MISSION)
 
 CONFIG_VITEMS = ../Altis/Altis_Life.Altis/Config_vItems.hpp
 
@@ -33,6 +33,20 @@ classVehicles:
 	find ../Mapping -type f -ipath "*/mission*.sqm" | sort | uniq | \
 		xargs -n1 --no-run-if-empty ./bin/slice.sh | \
 			tee -a tmp/classMission/classVehicles.sqm
+
+#
+# DHS CLAN SHOPS
+#
+dhs_shops:
+	$(CLASSVEHICLE_SCRIPT)
+
+#
+# put this into anything init where you want to be able to refuel :)
+#
+# %%%ACTION_FUEL_ACTION%%%
+#
+fuel_action:
+	$(CLASSVEHICLE_SCRIPT)
 
 #
 # turns out you actually CAN loot mil_boxes in altislife by dropping the stuff to the ground first :)
