@@ -25,7 +25,8 @@ boxes = [
 "Land_Pallet_MilBoxes_F",
 "Land_PaperBox_closed_F",
 "Land_PaperBox_open_full_F",
-"Land_WoodenBox_F"
+"Land_WoodenBox_F",
+"B_CargoNet_01_ammo_F"
 ]
 
 output_buffer = []
@@ -40,7 +41,7 @@ if __name__ == "__main__":
         if line.find("this enableSimulation false;") > 0:
           for box in boxes:
             if line.find(box) > 0:
-              line = line.replace("this enableSimulation false;", "this enableSimulation false; clearWeaponCargo this; clearMagazineCargo this;")
+              line = line.replace("this enableSimulation false;", "this enableSimulation false; clearWeaponCargoGlobal this; clearMagazineCargoGlobal this; clearItemCargoGlobal this; this lock 2; ")
 
       output_buffer.append(line.replace("\r", "").replace("\n", ""))
 
