@@ -118,11 +118,11 @@ dhs_shop_003 = """
 if __name__ == "__main__":
   with open(sys.argv[1], "r") as file_reader:
     for line in file_reader:
-      line = line.replace('%%%DHS_SHOP_001%%%', dhs_shop_001)
-      line = line.replace('%%%DHS_SHOP_002%%%', dhs_shop_002)
-      line = line.replace('%%%DHS_SHOP_003%%%', dhs_shop_003)
+      line = line.replace('%%%DHS_SHOP_001%%%', dhs_shop_001.replace('"', '""'))
+      line = line.replace('%%%DHS_SHOP_002%%%', dhs_shop_002.replace('"', '""'))
+      line = line.replace('%%%DHS_SHOP_003%%%', dhs_shop_003.replace('"', '""'))
 
-      output_buffer.append(line.replace("\r", " ").replace("\n", " ").replace("\t", " ").replace('"', '""'))
+      output_buffer.append(line.replace("\r", " ").replace("\n", " ").replace("\t", " "))
 
   for line in output_buffer:
     print line
