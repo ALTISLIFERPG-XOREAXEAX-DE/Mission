@@ -8,6 +8,42 @@ output_buffer = []
 shop_script = """
 
 this addAction[
+	"Heli Garage",
+	{
+		if(life_HC_isActive) then {
+			[getPlayerUID player,playerSide,"Air",player] remoteExecCall ["HC_fnc_getVehicles",HC_Life];
+		} else {
+			[getPlayerUID player,playerSide,"Air",player] remoteExecCall ["TON_fnc_getVehicles",2];
+		};
+
+		life_garage_type = "Air";
+		createDialog "Life_impound_menu";
+		disableSerialization;
+		ctrlSetText[2802,"Fetching Vehicles...."];
+		life_garage_sp = "dhs_heli_spawn_001";
+	}
+];
+
+this addAction[
+	localize"STR_Garage_Title",
+	{
+		if(life_HC_isActive) then {
+			[getPlayerUID player,playerSide,"Car",player] remoteExecCall ["HC_fnc_getVehicles",HC_Life];
+		} else {
+			[getPlayerUID player,playerSide,"Car",player] remoteExecCall ["TON_fnc_getVehicles",2];
+		};
+		
+		life_garage_type = "Car";
+		createDialog "Life_impound_menu";
+		disableSerialization;
+		ctrlSetText[2802,"Fetching Vehicles...."];
+		life_garage_sp = "dhs_vehicle_spawn_001";
+	}
+];
+		
+this addAction[localize"STR_MAR_Store_vehicle_in_Garage",life_fnc_storeVehicle,"",0,false,false,"",'!life_garage_store'];
+
+this addAction[
 	localize "STR_MAR_Car_shop",
 	life_fnc_vehicleShopMenu,
 	["civ_car",civilian,"dhs_vehicle_spawn_001","civ","Bruce's New & Used Auto's"]
