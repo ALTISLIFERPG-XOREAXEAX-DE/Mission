@@ -1,7 +1,6 @@
 
 	class Markers
 	{
-		items=220;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -1743,4 +1742,53 @@
 			type="loc_Fuelstation";
 			colorName="ColorWhite";
 		};
+
+		//
+		// DHS Basis
+		//
+		class Item220
+		{
+			position[]={20870.729,10.85663,19202.611};
+			name="dhs_spawn_002";
+			text="dhs_spawn_002";
+			type="Empty";
+		};
+		class Item221
+		{
+			position[]={20961.826,16.85,19235.543};
+			name="dhs_heli_spawn_001";
+			text="dhs_heli_spawn_001";
+			type="Empty";
+		};
+		class Item222
+		{
+			position[]={20866.678,10.826419,19212.537};
+			name="dhs_spawn_001";
+			text="dhs_spawn_001";
+			type="Empty";
+		};
+		class Item223
+		{
+			position[]={20974.779,16.85,19241.246};
+			name="dhs_heli_spawn_002";
+			text="dhs_heli_spawn_002";
+			type="Empty";
+		};
+		class Item224
+		{
+			position[]={20983.434,16.812428,19266.852};
+			name="dhs_vehicle_spawn_001";
+			text="dhs_vehicle_spawn_001";
+			type="Empty";
+		};
+		class Item225
+		{
+			position[]={20991.406,16.85,19269.08};
+			name="dhs_vehicle_spawn_002";
+			text="dhs_vehicle_spawn_002";
+			type="Empty";
+		};
+		
+		items=226;
+	
 	};

@@ -1944,10 +1944,10 @@
 					special="NONE";
 					id=95;
 					side="CIV";
-					vehicle="C_man_p_beggar_F_afro";
+					vehicle="B_Helipilot_F";
 					leader=1;
 					skill=0.60000002;
-					init="this enableSimulation false; this allowDamage false; %%%ACTION_FUEL_ACTION%%%; this addAction[localize ""STR_MAR_Car_shop"",life_fnc_vehicleShopMenu,[""civ_car"",civilian,""civ_car_3"",""civ"",""Bruce's New & Used Auto's""]];";
+					init="this enableSimulation false; this allowDamage false; %%%ACTION_FUEL_ACTION%%%; this addAction[localize ""STR_MAR_Car_shop"",life_fnc_vehicleShopMenu,[""civ_car"",civilian,""civ_car_3"",""civ"",""Bruce's New & Used Auto's""]]; this setObjectTextureGlobal [0, ""textures\clothing\med\adac_uniform.jpg""];";
 				};
 			};
 		};
@@ -2418,9 +2418,9 @@
 					special="NONE";
 					id=133;
 					side="CIV";
-					vehicle="C_man_p_beggar_F_afro";
+					vehicle="B_Helipilot_F";
 					skill=0.60000002;
-					init="this enableSimulation false; this allowDamage false; %%%ACTION_FUEL_ACTION%%%; this addAction[localize ""STR_MAR_Car_shop"",life_fnc_vehicleShopMenu,[""civ_car"",civilian,""civ_car_2"",""civ"",""Bruce's New & Used Auto's""]];";
+					init="this enableSimulation false; this allowDamage false; %%%ACTION_FUEL_ACTION%%%; this addAction[localize ""STR_MAR_Car_shop"",life_fnc_vehicleShopMenu,[""civ_car"",civilian,""civ_car_2"",""civ"",""Bruce's New & Used Auto's""]]; this setObjectTextureGlobal [0, ""textures\clothing\med\adac_uniform.jpg""];";
 				};
 				class Item37
 				{
@@ -2465,9 +2465,9 @@
 					special="NONE";
 					id=137;
 					side="CIV";
-					vehicle="C_man_polo_3_F";
+					vehicle="O_officer_F";
 					skill=0.60000002;
-					init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Medical_Assistance"",life_fnc_healHospital];";
+					init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Medical_Assistance"",life_fnc_healHospital]; this setObjectTextureGlobal [0, ""textures\clothing\med\medic_uniform.jpg""];";
 				};
 				class Item41
 				{
@@ -2510,10 +2510,10 @@
 					special="NONE";
 					id=141;
 					side="CIV";
-					vehicle="C_man_p_beggar_F_afro";
+					vehicle="B_Helipilot_F";
 					skill=0.60000002;
 					text="carshop1";
-					init="this enableSimulation false; this allowDamage false; this addAction[localize ""STR_MAR_Car_shop"",life_fnc_vehicleShopMenu,[""civ_car"",civilian,[""civ_car_1"",""civ_car_1_1""],""civ"",""Bruce's New & Used Auto's""]]; this setVariable[""realname"", ""Car Shop""];";
+					init="this enableSimulation false; this allowDamage false; %%%ACTION_FUEL_ACTION%%%; this addAction[localize ""STR_MAR_Car_shop"",life_fnc_vehicleShopMenu,[""civ_car"",civilian,[""civ_car_1"",""civ_car_1_1""],""civ"",""Bruce's New & Used Auto's""]]; this setVariable[""realname"", ""Car Shop""]; this setObjectTextureGlobal [0, ""textures\clothing\med\adac_uniform.jpg""];";
 				};
 				class Item45
 				{
@@ -2603,10 +2603,10 @@
 					special="NONE";
 					id=149;
 					side="CIV";
-					vehicle="C_man_p_beggar_F_afro";
+					vehicle="B_Helipilot_F";
 					skill=0.60000002;
 					text="carshop4";
-					init="this enableSimulation false; this allowDamage false; %%%ACTION_FUEL_ACTION%%%; this addAction[localize ""STR_MAR_Car_shop"",life_fnc_vehicleShopMenu,[""civ_car"",civilian,""civ_car_4"",""civ"",""Bruce's New & Used Auto's""]];";
+					init="this enableSimulation false; this allowDamage false; %%%ACTION_FUEL_ACTION%%%; this addAction[localize ""STR_MAR_Car_shop"",life_fnc_vehicleShopMenu,[""civ_car"",civilian,""civ_car_4"",""civ"",""Bruce's New & Used Auto's""]]; this setObjectTextureGlobal [0, ""textures\clothing\med\adac_uniform.jpg""];";
 				};
 				class Item53
 				{
