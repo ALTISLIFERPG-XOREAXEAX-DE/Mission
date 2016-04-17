@@ -1,7 +1,6 @@
 
 	class Groups
 	{
-		items=107;
 		class Item0
 		{
 			side="WEST";
@@ -3886,4 +3885,208 @@
 				};
 			};
 		};
+
+		class Item107
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3640.2312,10.131185,13154.412};
+					special="NONE";
+					id=240;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=1;
+					text="kavala_market_objektvernichter_001";
+					init="{ _x hideObjectGlobal true } foreach (nearestTerrainObjects [this,[],20]);";
+				};
+			};
+		};
+		
+
+		class Item108
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3657.9055,10.240349,13152.663};
+					special="NONE";
+					id=241;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=1;
+					text="kavala_market_objektvernichter_001_1";
+					init="{ _x hideObjectGlobal true } foreach (nearestTerrainObjects [this,[],20]);";
+				};
+			};
+		};
+		class Item109
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3646.1155,10.288281,13186.373};
+					special="NONE";
+					id=242;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=1;
+					text="kavala_market_objektvernichter_001_1_1";
+					init="{ _x hideObjectGlobal true } foreach (nearestTerrainObjects [this,[],20]);";
+				};
+			};
+		};
+		class Item110
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3657.8223,10.415483,13169.673};
+					special="NONE";
+					id=243;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=1;
+					text="kavala_market_objektvernichter_001_1_1_1";
+					init="{ _x hideObjectGlobal true } foreach (nearestTerrainObjects [this,[],20]);";
+				};
+			};
+		};
+		class Item111
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3641.6641,10.331143,13170.05};
+					special="NONE";
+					id=244;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=1;
+					text="kavala_market_objektvernichter_001_1_1_2";
+					init="{ _x hideObjectGlobal true } foreach (nearestTerrainObjects [this,[],20]);";
+				};
+			};
+		};
+		class Item112
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3660.8472,10.371425,13186.16};
+					special="NONE";
+					id=245;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=1;
+					text="kavala_market_objektvernichter_001_1_1_3";
+					init="{ _x hideObjectGlobal true } foreach (nearestTerrainObjects [this,[],20]);";
+				};
+			};
+		};
+		class Item113
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3649.0828,10.226428,13203.751};
+					special="NONE";
+					id=246;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=1;
+					text="kavala_market_objektvernichter_001_1_1_4";
+					init="{ _x hideObjectGlobal true } foreach (nearestTerrainObjects [this,[],20]);";
+				};
+			};
+		};
+		class Item114
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3653.5344,10.334448,13219.015};
+					special="NONE";
+					id=247;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=1;
+					text="kavala_market_objektvernichter_001_1_1_5";
+					init="{ _x hideObjectGlobal true } foreach (nearestTerrainObjects [this,[],20]);";
+				};
+			};
+		};
+		class Item115
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3662.3064,10.317223,13209.131};
+					special="NONE";
+					id=248;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=1;
+					text="kavala_market_objektvernichter_001_1_1_6";
+					init="{ _x hideObjectGlobal true } foreach (nearestTerrainObjects [this,[],20]);";
+				};
+			};
+		};
+		class Item116
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3663.7886,10.698522,13227.318};
+					special="NONE";
+					id=249;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=1;
+					text="kavala_market_objektvernichter_001_1_1_7";
+					init="{ _x hideObjectGlobal true } foreach (nearestTerrainObjects [this,[],20]);";
+				};
+			};
+		};
+		items=117;
 	};

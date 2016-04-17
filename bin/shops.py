@@ -20,15 +20,15 @@ this addAction[
 	' vehicle player == player && player distance _target < 4 '
 ];
 
-this addAction[localize"STR_MAR_Clothing_Store",life_fnc_clothingMenu,"bruce"];
-
-this addAction[localize"STR_MAR_General_Store",life_fnc_weaponShopMenu,"genstore"];
-
 this addAction[localize"STR_Shops_Market",life_fnc_virt_menu,"market"];
+this addAction[localize"STR_MAR_General_Store",life_fnc_weaponShopMenu,"genstore"];
+this addAction[localize"STR_MAR_Clothing_Store",life_fnc_clothingMenu,"bruce"];
 
 this addAction[localize"STR_Shops_Cop",life_fnc_virt_menu,"cop"];
 
 this addAction[localize"STR_Shops_Med",life_fnc_virt_menu,"med"];
+this addAction[localize"STR_MAR_EMS_Item_Shop",life_fnc_weaponShopMenu,"med_basic"];
+this addAction[localize"STR_MAR_EMS_Clothing_Shop",life_fnc_clothingMenu,"med_clothing"];
 
 this addAction[localize"STR_Shops_Pharmacy",life_fnc_virt_menu,"pharmacy"];
 
@@ -67,7 +67,10 @@ this addAction[
 	life_fnc_buyLicense,"home",0,false,false,"",' !license_civ_home && playerSide == civilian '
 ];
 
-this setObjectTextureGlobal[0, "textures\\armalife.jpg"];
+this setFuelCargo 0;
+this addAction [localize "STR_Action_Pump",life_fnc_FuelStatOpen,1,3,true,true,"",' _this distance _target < 5 && cursorTarget == _target '];
+
+this setObjectTextureGlobal[0, "textures\\armalife.jpg"]
 
 """
 
@@ -84,7 +87,7 @@ if __name__ == "__main__":
           for shop in shops:
             if line.find(shop) > 0:
               if shop_found == 0:
-                output_buffer.append(line.replace("this enableSimulation false;", "this enableSimulation false; %s" % shop_script.replace('"', '""')).replace("\r", " ").replace("\n", " ").replace("\t", " "))
+                output_buffer.append(line.replace("this enableSimulation false;", "this enableSimulation false; %s; " % shop_script.replace('"', '""')).replace("\r", " ").replace("\n", " ").replace("\t", " "))
                 shop_found = 1
 
       if shop_found == 0:
