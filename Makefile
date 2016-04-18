@@ -10,6 +10,8 @@ all: clean tmp Config classVehicles idpatcher lamps shops roadcones billboards c
 
 CONFIG_VITEMS = ../Altis/Altis_Life.Altis/Config_vItems.hpp
 
+homepage: Homepage
+
 Homepage:
 	bin/homepage.py templates/homepage/index.html.skel | ssh root@xoreaxeax.de -t tee /var/www/html/index.html
 	ssh root@xoreaxeax.de make -C /var/www/html

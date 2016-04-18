@@ -3824,6 +3824,9 @@
 				};
 			};
 		};
+		//
+		// ADAC chalk 1
+		//
 		class Item106
 		{
 			side="GUER";
@@ -4088,5 +4091,130 @@
 				};
 			};
 		};
-		items=117;
+		
+		class Item117
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={8433.9258,99.930687,25177.225};
+					azimut=185.11099;
+					special="NONE";
+					id=250;
+					side="GUER";
+					vehicle="I_soldier_UAV_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					text="adac_5";
+					description="WhiteListed - ADAC 5";
+				};
+				class Item1
+				{
+					position[]={8434.2324,99.418427,25179.02};
+					azimut=185.11099;
+					special="NONE";
+					id=251;
+					side="GUER";
+					vehicle="I_soldier_UAV_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="adac_6";
+					description="WhiteListed - ADAC 6";
+				};
+				class Item2
+				{
+					position[]={8435.6777,99.306786,25178.748};
+					azimut=185.11099;
+					special="NONE";
+					id=252;
+					side="GUER";
+					vehicle="I_soldier_UAV_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="adac_7";
+					description="WhiteListed - ADAC 7";
+				};
+				class Item3
+				{
+					position[]={8436.2236,99.711594,25177.109};
+					azimut=185.11099;
+					special="NONE";
+					id=253;
+					side="GUER";
+					vehicle="I_soldier_UAV_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="adac_8";
+					description="WhiteListed - ADAC 8";
+				};
+			};
+		};
+
+		class Item118
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={8437.9258,99.930687,25177.225};
+					azimut=185.11099;
+					special="NONE";
+					id=254;
+					side="GUER";
+					vehicle="B_medic_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					text="medic_1";
+					description="WhiteListed - EMS Medic 5";
+				};
+				class Item1
+				{
+					position[]={8438.2324,99.418427,25179.02};
+					azimut=185.11099;
+					special="NONE";
+					id=255;
+					side="GUER";
+					vehicle="B_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="medic_2";
+					description="WhiteListed - EMS Medic 6";
+				};
+				class Item2
+				{
+					position[]={8439.6777,99.306786,25178.748};
+					azimut=185.11099;
+					special="NONE";
+					id=256;
+					side="GUER";
+					vehicle="B_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="medic_3";
+					description="WhiteListed - EMS Medic 7";
+				};
+				class Item3
+				{
+					position[]={8440.2236,99.711594,25177.109};
+					azimut=185.11099;
+					special="NONE";
+					id=257;
+					side="GUER";
+					vehicle="B_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="medic_4";
+					description="WhiteListed - EMS Medic 8";
+				};
+			};
+		};		
+		
+		items=119;
 	};
