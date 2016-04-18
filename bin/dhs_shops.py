@@ -52,7 +52,7 @@ this addAction[
 this addAction[
 	localize"STR_MAR_Truck_Shop",
 	life_fnc_vehicleShopMenu,
-	["civ_truck",civilian,"dhs_vehicle_spawn002","civ","Bruce's New & Used Trucks"]
+	["civ_truck",civilian,"dhs_vehicle_spawn_002","civ","Bruce's New & Used Trucks"]
 ];
 
 this addAction[
