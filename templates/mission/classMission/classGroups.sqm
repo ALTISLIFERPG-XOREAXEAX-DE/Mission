@@ -4215,6 +4215,43 @@
 				};
 			};
 		};		
+
+		class Item119
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={8441.1602,96.90229,25159.342};
+					azimut=-2234.1799;
+					offsetY=2;
+					id=258;
+					side="WEST";
+					vehicle="B_officer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="cop_verhandlung_1";
+					init="removeBackpack this; removeAllWeapons this;";
+					description="WhiteListed - Verhandlungsgruppe 1";
+				};
+				class Item1
+				{
+					position[]={8442.1602,96.90229,25159.342};
+					azimut=-2234.1799;
+					offsetY=2;
+					id=259;
+					side="WEST";
+					vehicle="B_officer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="cop_verhandlung_2";
+					init="removeBackpack this; removeAllWeapons this;";
+					description="WhiteListed - Verhandlungsgruppe 2";
+				};
+			};
+		};
 		
-		items=119;
+		items=120;
 	};
