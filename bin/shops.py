@@ -25,8 +25,9 @@ this addAction[localize"STR_MAR_General_Store",life_fnc_weaponShopMenu,"genstore
 this addAction[localize"STR_MAR_Clothing_Store",life_fnc_clothingMenu,"bruce"];
 
 this addAction[localize"STR_Shops_Cop",life_fnc_virt_menu,"cop"];
-
 this addAction[localize"STR_Shops_Med",life_fnc_virt_menu,"med"];
+this addAction[localize"STR_Shops_Admin",life_fnc_virt_menu,"admin"];
+
 this addAction[localize"STR_MAR_EMS_Item_Shop",life_fnc_weaponShopMenu,"med_basic"];
 this addAction[localize"STR_MAR_EMS_Clothing_Shop",life_fnc_clothingMenu,"med_clothing"];
 

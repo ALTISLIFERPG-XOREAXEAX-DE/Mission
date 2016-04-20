@@ -8,7 +8,7 @@ CLASSGROUP_SCRIPT = bin/$(@).py tmp/classMission/classGroups.sqm >tmp/classMissi
 
 all: clean tmp Config classVehicles idpatcher lamps shops roadcones billboards cop_billboards make_love_not_war fuel_action dhs_shops $(MISSION)
 
-CONFIG_VITEMS = ../Altis/Altis_Life.Altis/Config_vItems.hpp
+CONFIG_VITEMS = tmp/Config_vItems.hpp
 
 homepage: Homepage
 
