@@ -62,14 +62,17 @@
                         <h3>Willkommen im Dienst!</h3>
 
 <p>Bevor auf einen Polizisten geschossen werden darf muss er verstehen warum er beschossen wird, ihm muss die Gefahr bekannt sein und er muss in der Lage sein sich zu wehren.</p>
-<p>KEIN POLIZIST DARF GRUNDLOS ODER AUS DEM HINTERHALT BESCHOSSEN WERDEN. POLIZISTEN GENIESSEN ALS EXEKUTIVE GEWALT BESONDEREN SCHUTZ UND BESONDERE RECHTE AUF DIESEM SERVER. DIE ADMINS SETZEN DIESE REGEL RIGOROS DURCH.</p>
+<p>KEIN POLIZIST DARF GRUNDLOS ODER AUS DEM HINTERHALT BESCHOSSEN WERDEN. POLIZISTEN GENIESSEN ALS EXEKUTIVE GEWALT BESONDEREN SCHUTZ UND BESONDERE RECHTE AUF DIESEM SERVER.</p>
 
 <p>Wehrlose Spieler (unbewaffnete oder festgenommene Personen) werden AUF KEINEN FALL, das bedeutet <b>NIEMALS</b> von Polizisten (weder im RP noch ausserhalb) erschossen.</p>
-<p>Sollte sich beispielsweise ein Spieler an einem Shop befinden und dort einkaufen so ist es eher schlecht ihn sofort abzuknallen wenn er sich ein Fernglas kauft und sich deshalb seine Waffe bewegt.</p>
 
-<p>Missbrauch von Schusswaffen durch Polizisten wird nicht geduldet und wird von den Admins sofort auf dem Server direkt geahndet.</p>
+<p>Oder um es in zwei etwas holprigen Reimen zu formulieren:</p>
+<p>Ist die Waffe auf dem R&uuml;cken tust Du besser nicht abdr&uuml;cken.</p>
+<p>Hat der Spieler keine Waffe, erschiesst Du ihn bist Du der Affe!</p>
 
-<p>Sollte ein Spieler ein Video vorzeigen in dem ein Polizist eine wehrlose oder unbewaffnet Person ruchlos, mit Vorsatz und ohne akute Gefahrenlage per Hinrichtung erschiesst so kann und wird dieser Polizist ohne Vorwarnung oder Zustimmung der Polizeileitung durch einen Admin vom Server <b>gebannt</b> werden.  Das ist ganz klarer, eiskalter Mord und sowas wollen wir hier nicht sehen.  Die Polizeileitung kann per Petition die Wiederaufnahme dieses Polizisten in den Dienst erbitten, das Opfer hat Stimmrecht an dieser Petition, die Entscheidung obliegt den Admins ob und wann der Bann entfernt wird.</p>
+<a href="https://github.com/ALTISLIFERPG-XOREAXEAX-DE/Altis/blob/master/Altis_Life.Altis/core/medical/fn_onPlayerKilled.sqf#L101"><p>Polizisten die im Spiel Unbewaffnete erschiessen werden automatisch inhaftiert.</p></a>
+
+<p>Sollte ein Spieler dazu noch ein Video als Beweis vorbringen in dem ein Polizist eine wehrlose oder unbewaffnete Person ruchlos, mit Vorsatz und ohne akute Gefahrenlage per Hinrichtung erschiesst so ist das ein grober Verstoss gegen die Serveretikette und seine Verantwortung als Spieler mit besonderen Privilegien (whitelisted).  Daher kann dieser Polizist ohne Vorwarnung oder Zustimmung der Polizeileitung durch einen Admin vom Server <b>gebannt</b> werden.  Das ist ganz klarer, eiskalter Mord und sowas wollen wir hier nicht sehen.  Die Polizeileitung kann per Petition die Wiederaufnahme dieses Polizisten in den Dienst erbitten, das Opfer des Mordes hat Stimmrecht an dieser Petition, der Polizist selbst hat kein Stimmrecht.  Die finale Entscheidung obliegt den Admins.</p>
 
 <p>Betreten von Teamspeak- Channels der Polizisten ist Spielern, Supportern sowie Admins strengstens verboten. Die Polizisten haben ein Wartezimmer.</p>
 <p>Das Ziehen oder Modifizieren von Polizisten im Teamspeak ist ebenfalls verboten, genauso Kicken, Bannen oder sonstige Scherze.</p>
@@ -78,14 +81,16 @@
 <p>Das Polizei HQ Kavala ist Sperrgebiet mit besonderen Rechten der Polizei.  Jeder als BEWAFFNET erkennbare Eindringling oder BEWAFFNETE Angreifer darf dort von der Polizei als Bedrohung eingestuft und sofort erschossen werden.</p>
 <p>Wird im Polizei HQ (so wie an jedem anderen Ort) ein Unbewaffneter erschossen und hat der Unbewaffnete ein Video davon so hat der Polizist Pech und wird gebannt.</p>
 
-<p>Werden Gefangene in das Polizei HQ verbracht mit Polizeifahrzeugen so gilt die "Shoot on Sight" Regel bez. Bewaffneten ebenfalls nicht insofern die Festgenommenen zum Zeitpunkt der Festnahme Waffen bei sich trugen. Das Leben ist kompliziert. Ja, diese Regeln sind nicht so einfach zu definieren weil man immer mehr Situationen einbeziehen muss in die Definition.</p>
-<p>In den Hauptquartieren der Polizei gilt Spawnschutz und RP- Schutz der Polizei, Wiedereintritt als Verteidigung der Basis in einen laufenden Angriff ist hier explizit erlaubt und gefordert.</p>
-<p>Im Zweifelsfall ob eine Bedrohungslage existiert und Leute erschossen werden sollten gilt wie immer: gesunden Menschenverstand benutzen und sich in die Lage des Anderen versetzen bevor man loslegt mit dem Feuergefecht.</p>
+<p>Werden Gefangene in das Polizei HQ verbracht mit Polizeifahrzeugen so gilt die "Shoot on Sight" Regel bez. Bewaffneten ebenfalls nicht insofern die Festgenommenen zum Zeitpunkt der Festnahme Waffen bei sich trugen. Das Risiko liegt in diesem Falle komplett bei den Polizisten und sie haben Sorge zu tragen dass die Situation sicher und kontrollierbar bleibt.</p>
+
+<p>In den Hauptquartieren der Polizei gilt Spawnschutz und RP- Schutz der Polizei, Wiedereintritt als Verteidigung der Basis in einen laufenden Angriff ist hier gestattet.</p>
+
+<p>Im Zweifelsfall ob eine Bedrohungslage existiert und Leute erschossen werden sollten gilt wie immer: seinen gesunden Menschenverstand benutzen hilft immens.</p>
 
 <p><b>Die Zentralbank ist ein RP- Event, genau wie jedes Kidnapping oder grossangelegte, vorher geplante Schiessereien, beispielsweise am Gang Hideout.</b></p>
 
 <p>Sollten Polizisten sterben sobald die erste Alarmierung der Zentralbank stattgefunden hat so sind die Bank und der Gold NPC selbst tabu, die Angreifer der Bank werden durch diese (RP-Event-toten) Polizisten nicht mehr behelligt.</p>
-<p>Will ein Polizist seinen Dienst an diesem Tag beenden so darf er falls er stirbt nicht trennen sondern hat in der Basis ohne Waffe zu spawnen, zwei Minuten zu warten und dann auszuloggen.</p>
+<p>Will ein Polizist seinen Dienst an diesem Tag beenden so darf er falls er stirbt nicht trennen sondern hat in der Basis zu spawnen, zwei Minuten zu warten und dann auszuloggen.</p>
 <p>Zuwiderhandlungen gegen diese Regel werden als Combat Logging gewertet (sterben und disconnecten) und werden beim Polizeidirektor zur Anzeige gebracht und von ihm entsprechend bestraft.</p>
 
 <p>Polizisten ist es erlaubt als Zivilisten zu spielen falls keine Gefahr durch Kriminelle und Verbrecher besteht. Jedoch kann ein Polizist nur legale Arbeit verrichten und darf auch nicht bewaffnet sein als Zivilist.</p>
@@ -100,8 +105,12 @@
 
 <p>Wir legen wert auf korrekte Polizisten und RP mit Tiefgang und Storyline.</p>
 
+<p>Sollten Polizisten Verwundete und Schwerverletzte finden und deren Eigentum looten so machen sich die Polizisten strafbar und gelten automatisch als korrupt und ehrlos falls sie das Geld und das Eigentum dieser Verwundeten aufnehmen und anschliessend behalten ohne den Verletzten zu helfen (Sanis benachrichtigen und auf Ankunft der Sanis warten beispielsweise).</p>
+<p>Im Zweifelsfalle einfach alles liegen lassen was nicht zugeordnet werden kann.</p>
+
 <p>Auf unserem Server herrscht eine klare, demokratisch orientierte Gewaltentrennung.<p>
-<p>Serveradmins und Ingame- Admins (auch TS Admins) spielen keine Cops.  Cops sind keine Admins.<p>
+<p>Serveradmins und Ingame- Admins (auch TS Admins) spielen keine Cops.</p>
+<p>Cops sind keine Admins.<p>
 
 <p>Damit gibt es automatisch keine Interessenkonflikte und keinen Missbrauch von Rechten.<p>
 
