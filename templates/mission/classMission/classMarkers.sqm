@@ -1788,7 +1788,46 @@
 			text="dhs_vehicle_spawn_002";
 			type="Empty";
 		};
-		
-		items=226;
+		class Item226
+		{
+			position[]={8938.6279,9.1477594,25078.736};
+			name="dhs_spawn_003";
+			text="dhs_spawn_003";
+			type="Empty";
+		};
+		class Item227
+		{
+			position[]={8752.8828,64.420288,25164.887};
+			name="dhs_spawn_004";
+			text="dhs_spawn_004";
+			type="Empty";
+			angle=220;
+		};
+
+		class Item228
+		{
+			position[]={8756.5127,64.839409,25195.199};
+			name="dhs_heli_spawn_atsalis_001";
+			type="Empty";
+		};
+		class Item229
+		{
+			position[]={8780.0332,66.321518,25180.998};
+			name="dhs_heli_spawn_atsalis_002";
+			type="Empty";
+		};
+		class Item230
+		{
+			position[]={8747.6602,65.169098,25184.672};
+			name="dhs_vehicle_spawn_atsalis_001";
+			type="Empty";
+		};
+		class Item231
+		{
+			position[]={8763.1426,66.081619,25175.834};
+			name="dhs_vehicle_spawn_atsalis_002";
+			type="Empty";
+		};
+		items=232;
 	
 	};

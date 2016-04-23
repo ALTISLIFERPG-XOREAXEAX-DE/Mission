@@ -67,12 +67,6 @@
 
 <p>Wehrlose Spieler (unbewaffnete oder festgenommene Personen) werden AUF KEINEN FALL, das bedeutet <b>NIEMALS</b> von Polizisten (weder im RP noch ausserhalb) erschossen.</p>
 
-<p>Oder um es in zwei etwas holprigen Reimen zu formulieren:</p>
-<p>Ist die Waffe auf dem R&uuml;cken tust Du besser nicht abdr&uuml;cken.</p>
-<p>Hat der Spieler keine Waffe, erschiesst Du ihn bist Du der Affe!</p>
-
-<a href="https://github.com/ALTISLIFERPG-XOREAXEAX-DE/Altis/blob/master/Altis_Life.Altis/core/medical/fn_onPlayerKilled.sqf#L101"><p>Polizisten die im Spiel Unbewaffnete erschiessen werden automatisch inhaftiert.</p></a>
-
 <p>Sollte ein Spieler dazu noch ein Video als Beweis vorbringen in dem ein Polizist eine wehrlose oder unbewaffnete Person ruchlos, mit Vorsatz und ohne akute Gefahrenlage per Hinrichtung erschiesst so ist das ein grober Verstoss gegen die Serveretikette und seine Verantwortung als Spieler mit besonderen Privilegien (whitelisted).  Daher kann dieser Polizist ohne Vorwarnung oder Zustimmung der Polizeileitung durch einen Admin vom Server <b>gebannt</b> werden.  Das ist ganz klarer, eiskalter Mord und sowas wollen wir hier nicht sehen.  Die Polizeileitung kann per Petition die Wiederaufnahme dieses Polizisten in den Dienst erbitten, das Opfer des Mordes hat Stimmrecht an dieser Petition, der Polizist selbst hat kein Stimmrecht.  Die finale Entscheidung obliegt den Admins.</p>
 
 <p>Betreten von Teamspeak- Channels der Polizisten ist Spielern, Supportern sowie Admins strengstens verboten. Die Polizisten haben ein Wartezimmer.</p>

@@ -41,7 +41,12 @@ classVehicles:
 #
 # DHS CLAN SHOPS
 #
-dhs_shops:
+dhs_shops: dhs_shops_atsalis dhs_shops_sek_base
+
+dhs_shops_sek_base:
+	$(CLASSVEHICLE_SCRIPT)
+
+dhs_shops_atsalis:
 	$(CLASSVEHICLE_SCRIPT)
 
 #
