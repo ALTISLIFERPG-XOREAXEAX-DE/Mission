@@ -29,7 +29,7 @@ class VirtualShops {
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "painkillers" };
+        items[] = { "painkillers" , "tranquilliser" };
     };
 	
     class rebel {
@@ -157,7 +157,7 @@ class VirtualShops {
         side = "med";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "apple", "zipties", "lockpick", "spikeStrip", "fuelFull", "peach", "rabbit_raw" };
+        items[] = { "waterBottle", "apple", "zipties", "lockpick", "boltcutter", "spikeStrip", "fuelFull", "peach", "rabbit_raw" };
     };
 	
 	class admin {
@@ -268,7 +268,7 @@ class VirtualItems {
         weight = 5;
         buyPrice = 7500;
         sellPrice = 1000;
-        illegal = true;
+        illegal = false;
         edible = -1;
         icon = "icons\ico_boltCutter.paa";
     };
@@ -312,18 +312,29 @@ class VirtualItems {
         weight = 1;
         buyPrice = 550;
         sellPrice = 400;
-        illegal = false;
+        illegal = true;
         edible = -1;
         icon = "custom\icons\ico_painkillers.paa";
     };
 
+	class tranquilliser {
+        variable = "tranquilliser";
+        displayName = "STR_Item_Tranquilliser";
+        weight = 1;
+        buyPrice = 100000;
+        sellPrice = 400;
+        illegal = true;
+        edible = -1;
+        icon = "custom\icons\ico_tranquilliser.paa";
+    };
+	
 	class zipties {
         variable = "zipties";
         displayName = "STR_Item_Zipties";
         weight = 1;
         buyPrice = 10000;
         sellPrice = 400;
-        illegal = true;
+        illegal = false;
         edible = -1;
         icon = "custom\icons\ico_zipties.paa";
     };
